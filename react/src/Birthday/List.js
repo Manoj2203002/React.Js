@@ -1,0 +1,27 @@
+export default[
+    {
+        Name:"Manoj",
+        age:23,
+        images:'https://cdn.pixabay.com/photo/2019/05/04/15/24/woman-4178302_640.jpg'
+    },
+    {
+        Name:"Gayathri",
+        age:23,
+        images:'https://cdn.pixabay.com/photo/2019/05/04/15/24/woman-4178302_640.jpg'
+    },
+    {
+        Name:"Sharmitha",
+        age:15,
+        images:'https://cdn.pixabay.com/photo/2019/05/04/15/24/woman-4178302_640.jpg'
+    },
+    {
+        Name:"Pream",
+        age:24,
+        images:'https://cdn.pixabay.com/photo/2019/05/04/15/24/woman-4178302_640.jpg'
+    },
+    {
+        Name:"Nithin",
+        age:23,
+        images:'https://cdn.pixabay.com/photo/2019/05/04/15/24/woman-4178302_640.jpg'
+    }
+]

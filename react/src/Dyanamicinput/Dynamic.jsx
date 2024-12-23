@@ -10,4 +10,5 @@ const Dynamic = () => {
   )
 }
 
+
 export default Dynamic

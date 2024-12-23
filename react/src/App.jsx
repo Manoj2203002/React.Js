@@ -1,9 +1,9 @@
 import React from 'react'
-import Birthday from './Birthday/Birthday'
+import Dynamic from './Dyanamicinput/Dynamic'
 const App = () => {
   return (
     <div>
-      <Birthday/>
+      <Dynamic/>
     </div>
   )
 }

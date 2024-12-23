@@ -1,9 +1,9 @@
 import React from 'react'
-import Dynamic from './Dyanamicinput/Dynamic'
+import Api from './Api/Api'
 const App = () => {
   return (
     <div>
-      <Dynamic/>
+      <Api/>
     </div>
   )
 }

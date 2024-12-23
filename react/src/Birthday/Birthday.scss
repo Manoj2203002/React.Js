@@ -2,40 +2,52 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: palevioletred;
-}
-.div{
- height: 100vh;
- @include manoj();
 }
 .main{
-    width: 25rem;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 2px 2px 20px black;
+    background-color: rgb(214, 74, 121);
+    height: 100vh;
     @include manoj();
-    background-color: white;
-    flex-direction: column;
-    h1{
-        margin-bottom: 3rem;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 100;
+    .contine{
+        background-color: white;
+        @include manoj();
+        flex-direction: column;
+        padding: 0.5rem 2rem;
+        border-radius:10px ;
+        .manoj{
+            display: flex;
+            margin: 10px;
+            @include manoj();
+            padding: 10px;
+        }
+        h1,h2{
+            font-weight: 100;
+            @include manoj();
+        }
+        
+        p{
+            @include manoj();
+            }
+        
+        .image{
+            @include manoj();
+            flex-direction: column;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            position: relative;
+            right:60px;
+            img{
+             width: 60px;
+             height: 60px;
+             border-radius: 50%;
+           }
     }
-    h2{
-        margin-top: 19px;
-        font-weight: 100;
-    }
-    p{
-        color: gray;
-    }
-    
     button{
-        background-color: palevioletred;
-        width: 80%;
-        height: 40px;
-        border: none;
-        margin-top: 2rem;
+        width: 100%;
+        padding: 10px;
         color: white;
-        font-size: large;
+        border: none;
+        background-color: rgb(214, 74, 121) ;
     }
+}
 }

@@ -1,8 +1,10 @@
-import React from "react"
-import Birthday from "./Birthday/Birthday"
+import React from 'react'
+import Birthday from './Birthday/Birthday'
 const App = () => {
   return (
-    <div><Birthday/></div>
+    <div>
+      <Birthday/>
+    </div>
   )
 }
 

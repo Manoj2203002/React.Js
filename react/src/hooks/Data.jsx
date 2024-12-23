@@ -6,7 +6,8 @@ const Data = () => {
     <div>
       <h1>{Detials.length}</h1>
       {Detials.map((item,index)=>{
-        return <div key={item}>{index} {item}</div>
+        return <div key={item}>{index} {item}
+        </div>
       })}
          <button onClick={()=>setDetial([])}>Clear</button>
           </div>

@@ -9,7 +9,8 @@ const Useeffect = () => {
         a.addEventListener('click',()=>{
             document.body.style.backgroundColor="black"
         })
-    },[])
+    },//depandancy
+    )
   return (
     <div>
         <h1>{value}{data}</h1>

@@ -1,9 +1,9 @@
 import React from 'react'
-import Api from './Api/Api'
+import Useeffect from './Useeffect/Useeffect'
 const App = () => {
   return (
     <div>
-      <Api/>
+      <Useeffect />
     </div>
   )
 }

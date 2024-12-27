@@ -1,0 +1,143 @@
+// Define color variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$text-color: #343a40;
+$button-hover-color: #0056b3;
+
+// Typography settings
+$font-family: 'Arial', sans-serif;
+
+// Body and global styles
+body {
+    font-family: $font-family;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+    color: $text-color;
+}
+
+// Container style for centered content
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+// Heading styles
+h1 {
+    font-size: 2rem;
+    color: $text-color;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+// Product list styles
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+
+    li {
+        margin-bottom: 15px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f1f1f1;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #e9ecef;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            color: $primary-color;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1rem;
+            color: $text-color;
+            margin: 5px 0;
+        }
+
+        .price {
+            font-weight: bold;
+            color: $primary-color;
+        }
+    }
+}
+
+// Pagination styles
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    button {
+        padding: 10px 15px;
+        font-size: 1rem;
+        background-color: $primary-color;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: background-color 0.3s ease;
+
+        &:disabled {
+            background-color: $secondary-color;
+            cursor: not-allowed;
+        }
+
+        &:hover:not(:disabled) {
+            background-color: $button-hover-color;
+        }
+    }
+
+    span {
+        font-size: 1.2rem;
+        color: $text-color;
+        margin: 0 10px;
+    }
+}
+
+// Responsive styles
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    ol {
+        padding-left: 15px;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .pagination button {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    ol {
+        padding-left: 10px;
+    }
+
+    .pagination button {
+        padding: 8px 10px;
+        font-size: 0.8rem;
+    }
+}

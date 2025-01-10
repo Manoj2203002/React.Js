@@ -1,9 +1,9 @@
 import React from 'react'
-import Counter from './HOC/Counter'
+import UseCallback from './UesCallback/UseCallback'
 const App = () => {
   return (
     <div>
-      <Counter/>
+      <UseCallback/>
     </div>
   )
 }
